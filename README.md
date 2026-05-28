@@ -11,7 +11,7 @@ The minimum production setup for Claude Code on a real codebase. Drop it into yo
 
 ```bash
 # from your project root
-curl -L https://github.com/amineorion/claude-code-starter/archive/refs/heads/main.tar.gz | tar -xz --strip-components=2 claude-code-starter-main/CLAUDE.md claude-code-starter-main/.claude
+curl -L https://github.com/amineorion/claude-code-starter/archive/refs/heads/main.tar.gz | tar -xz --strip-components=1 claude-code-starter-main/CLAUDE.md claude-code-starter-main/.claude
 chmod +x .claude/hooks/*.sh
 ```
 
